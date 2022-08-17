@@ -6,6 +6,7 @@ useradd roboshop
 
 curl -s -L -o /tmp/catalogue.zip "https://github.com/roboshop-devops-project/catalogue/archive/main.zip"
 cd /home/roboshop
+rm -rf catalogue
 unzip /tmp/catalogue.zip
 mv catalogue-main catalogue
 cd /home/roboshop/catalogue
@@ -13,7 +14,7 @@ npm install
 
 #1. Update SystemD file with correct IP addresses
 #
-# Update  'MONGO DSNAME' with MongDB server IP
+#   Update  'MONGO DSNAME' with MongDB server IP
 #
 #2. Now, lets set up the service with systemctl.
 
