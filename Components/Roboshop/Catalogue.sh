@@ -11,9 +11,9 @@ mv catalogue-main catalogue
 cd /home/roboshop/catalogue
 npm install
 
-#1. Update SystemD file with correct IP addresses
+#1. Update SystemD file with correct IP address
 #
-#    Update 'MONGO DNSNAME' with MongoDB server IP
+#    Update 'MONGO DNSNAME' with MongoDB Server IP
 #
 #2. Now, lets set up the service with systemctl.
 
@@ -21,12 +21,3 @@ mv /home/roboshop/catalogue/systemd.service /etc/systemd/system/catalogue.servic
 systemctl daemon-reload
 systemctl start catalogue
 systemctl enable catalogue
-
-
-
-
-
-
-
-
-
