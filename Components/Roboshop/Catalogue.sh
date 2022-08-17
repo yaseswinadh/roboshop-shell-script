@@ -13,7 +13,7 @@ npm install
 
 #1. Update SystemD file with correct IP addresses
 #
-#   Update  'MONGO DNSNAME' with MongoDB server IP
+#    Update  'MONGO DNSNAME' with MongoDB server IP
 #
 #2. Now, lets set up the service with systemctl.
 
