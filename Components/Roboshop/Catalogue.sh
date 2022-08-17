@@ -3,7 +3,6 @@ yum install nodejs -y
 
 useradd roboshop
 
-
 curl -s -L -o /tmp/catalogue.zip "https://github.com/roboshop-devops-project/catalogue/archive/main.zip"
 cd /home/roboshop
 rm -rf catalogue
@@ -14,7 +13,7 @@ npm install
 
 #1. Update SystemD file with correct IP addresses
 #
-#   Update  'MONGO DSNAME' with MongDB server IP
+#   Update  'MONGO DNSNAME' with MongoDB server IP
 #
 #2. Now, lets set up the service with systemctl.
 
