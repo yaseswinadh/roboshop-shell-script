@@ -11,7 +11,7 @@ mv catalogue-main catalogue
 cd /home/roboshop/catalogue
 npm install
 
-#1. Update SystemD file with correct IP address
+#1. Update SystemD file with correct IP addresses
 #
 #    Update 'MONGO DNSNAME' with MongoDB Server IP
 #
